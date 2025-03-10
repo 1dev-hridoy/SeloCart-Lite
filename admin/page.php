@@ -8,7 +8,7 @@ include_once './includes/__navbar.php';
         <h1 class="h3 mb-3"><strong>Sections</strong> List</h1>
         <div class="row">
             <div class="col-sm-6 col-xl-3 mb-4">
-                <a href="settings.php?section=sales" class="text-decoration-none">
+                <a href="hero-section" class="text-decoration-none">
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
                             <div class="stat text-primary mr-3">

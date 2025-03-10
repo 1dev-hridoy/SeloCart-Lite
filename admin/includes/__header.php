@@ -1,3 +1,7 @@
+<?php
+include_once '../server/dbcon.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
