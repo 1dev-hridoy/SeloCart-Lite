@@ -12,9 +12,9 @@ include_once './includes/__navbar.php';
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
                             <div class="stat text-primary mr-3">
-                                <i class="align-middle" data-feather="truck"></i>
+                                <i class="align-middle" data-feather="monitor"></i>
                             </div>
-                            <h5 class="card-title mb-0">Sales</h5>
+                            <h5 class="card-title mb-0 ms-3">Hero Section</h5>
                         </div>
                     </div>
                 </a>
@@ -24,9 +24,9 @@ include_once './includes/__navbar.php';
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
                             <div class="stat text-primary mr-3">
-                                <i class="align-middle" data-feather="users"></i>
+                                <i class="align-middle" data-feather="feather"></i>
                             </div>
-                            <h5 class="card-title mb-0">Visitors</h5>
+                            <h5 class="card-title mb-0 ms-3">Features</h5>
                         </div>
                     </div>
                 </a>
@@ -36,9 +36,9 @@ include_once './includes/__navbar.php';
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
                             <div class="stat text-primary mr-3">
-                                <i class="align-middle" data-feather="dollar-sign"></i>
+                                <i class="align-middle" data-feather="image"></i>
                             </div>
-                            <h5 class="card-title mb-0">Earnings</h5>
+                            <h5 class="card-title mb-0 ms-3">Gallery</h5>
                         </div>
                     </div>
                 </a>
@@ -48,9 +48,69 @@ include_once './includes/__navbar.php';
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
                             <div class="stat text-primary mr-3">
-                                <i class="align-middle" data-feather="shopping-cart"></i>
+                                <i class="align-middle" data-feather="video"></i>
                             </div>
-                            <h5 class="card-title mb-0">Orders</h5>
+                            <h5 class="card-title mb-0 ms-3">Video</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3 mb-4">
+                <a href="settings.php?section=orders" class="text-decoration-none">
+                    <div class="card">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="stat text-primary mr-3">
+                                <i class="align-middle" data-feather="help-circle"></i>
+                            </div>
+                            <h5 class="card-title mb-0 ms-3">Benefits</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3 mb-4">
+                <a href="settings.php?section=orders" class="text-decoration-none">
+                    <div class="card">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="stat text-primary mr-3">
+                                <i class="align-middle" data-feather="grid"></i>
+                            </div>
+                            <h5 class="card-title mb-0 ms-3">Pricing</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3 mb-4">
+                <a href="settings.php?section=orders" class="text-decoration-none">
+                    <div class="card">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="stat text-primary mr-3">
+                                <i class="align-middle" data-feather="package"></i>
+                            </div>
+                            <h5 class="card-title mb-0 ms-3">Order</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3 mb-4">
+                <a href="settings.php?section=orders" class="text-decoration-none">
+                    <div class="card">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="stat text-primary mr-3">
+                                <i class="align-middle" data-feather="octagon"></i>
+                            </div>
+                            <h5 class="card-title mb-0 ms-3">Navbar</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3 mb-4">
+                <a href="settings.php?section=orders" class="text-decoration-none">
+                    <div class="card">
+                        <div class="card-body d-flex align-items-center">
+                            <div class="stat text-primary mr-3">
+                                <i class="align-middle" data-feather="columns"></i>
+                            </div>
+                            <h5 class="card-title mb-0 ms-3">Footer</h5>
                         </div>
                     </div>
                 </a>
