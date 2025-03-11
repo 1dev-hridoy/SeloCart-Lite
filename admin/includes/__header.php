@@ -22,6 +22,26 @@ include_once '../server/dbcon.php';
 	<link href="./assets/css/app.css" rel="stylesheet">
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<style>
+.sidebar a:hover,
+.sidebar a:focus,
+.sidebar button:hover,
+.sidebar button:focus,
+.sidebar .nav-link:hover,
+.sidebar .nav-link:focus {
+  text-decoration: none !important;
+}
+
+.sidebar * {
+  text-decoration: none !important;
+}
+
+.sidebar .nav-item a:hover,
+.sidebar .menu-item a:hover,
+.sidebar-menu a:hover {
+  text-decoration: none !important;
+}
+	</style>
 </head>
 
 <body>
