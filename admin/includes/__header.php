@@ -20,6 +20,7 @@ include_once '../server/dbcon.php';
 	<title>Admin - Dashboard</title>
 
 	<link href="./assets/css/app.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 

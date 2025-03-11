@@ -20,6 +20,9 @@
 	</div>
 
 	<script src="./assets/js/app.js"></script>
+	<script src="./assets/plugin/jquery-3.5.1.slim.min.js"></script>
+	<script src="./assets/plugin/popper.min.js"></script>
+	<script src="./assets/plugin/bootstrap.min.js"></script>
 	<script>
 		document.addEventListener("DOMContentLoaded", function() {
 			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
