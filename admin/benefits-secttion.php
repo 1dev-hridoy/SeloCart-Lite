@@ -72,7 +72,7 @@ include_once './includes/__navbar.php';
                                 <div class="form-group">
                                     <label for="featureIcon<?php echo $i; ?>">Icon <?php echo $i; ?></label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" id="featureIcon<?php echo $i; ?>" name="featureIcon<?php echo $i; ?>" placeholder="Select an icon" readonly>
+                                        <input type="text" class="form-control" id="featureIcon<?php echo $i; ?>" name="featureIcon<?php echo $i; ?>" placeholder="Select an icon">
                                         <div class="input-group-append">
                                             <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#iconModal" data-input-id="featureIcon<?php echo $i; ?>">Select Icon</button>
                                         </div>
@@ -130,7 +130,10 @@ include_once './includes/__navbar.php';
     </div>
 </div>
 
-
+<!-- Include Bootstrap JS and dependencies for modal functionality -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script>
     $(document).ready(function() {
